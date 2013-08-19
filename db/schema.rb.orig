@@ -11,7 +11,11 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(:version => 20130819034136) do
+=======
+ActiveRecord::Schema.define(:version => 20130819014844) do
+>>>>>>> 3586b62d9e7d8f821272ce91bf33d8010861aab0
 
   create_table "models", :force => true do |t|
     t.string   "email",                  :default => "", :null => false
@@ -33,9 +37,19 @@ ActiveRecord::Schema.define(:version => 20130819034136) do
 
   create_table "pins", :force => true do |t|
     t.string   "description"
+<<<<<<< HEAD
+    t.datetime "created_at",         :null => false
+    t.datetime "updated_at",         :null => false
+    t.integer  "user_id"
+    t.string   "image_file_name"
+    t.string   "image_content_type"
+    t.integer  "image_file_size"
+    t.datetime "image_updated_at"
+=======
     t.datetime "created_at",  :null => false
     t.datetime "updated_at",  :null => false
     t.integer  "user_id"
+>>>>>>> 3586b62d9e7d8f821272ce91bf33d8010861aab0
   end
 
   add_index "pins", ["user_id"], :name => "index_pins_on_user_id"
