@@ -21,3 +21,18 @@ body {
 		color: gray;
 	}
 }
+
+.box {
+	margin: 5px;
+	padding: 10px;
+	font-size: 12px;
+	line-height: 1.4em;
+	float: left;
+	box-shadow: 1px 1px 10px #444;
+	width: 220px;
+}
+
+.box img {
+	display: block;
+	width: 100%;
+}
