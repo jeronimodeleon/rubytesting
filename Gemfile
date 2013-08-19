@@ -5,6 +5,7 @@ gem 'jquery-rails'
 gem "devise", "~> 3.0.2"
 gem 'simple_form'
 gem "paperclip", "~> 3.0"
+gem 'faker', '1.1.2'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
